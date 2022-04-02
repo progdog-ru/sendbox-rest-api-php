@@ -9,11 +9,11 @@
  *
  */
 
-namespace Sendpulse\RestApi;
+namespace Sendbox\RestApi;
 
 use Exception;
-use Sendpulse\RestApi\Storage\FileStorage;
-use Sendpulse\RestApi\Storage\TokenStorageInterface;
+use Sendbox\RestApi\Storage\FileStorage;
+use Sendbox\RestApi\Storage\TokenStorageInterface;
 use stdClass;
 
 class ApiClient implements ApiInterface

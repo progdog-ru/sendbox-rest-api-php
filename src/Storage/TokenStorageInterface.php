@@ -4,7 +4,7 @@
  * Interface TokenStorageInterface
  */
 
-namespace Sendpulse\RestApi\Storage;
+namespace Sendbox\RestApi\Storage;
 
 interface TokenStorageInterface
 {

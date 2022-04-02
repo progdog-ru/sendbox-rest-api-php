@@ -5,7 +5,7 @@
  * Class SessionStorage
  */
 
-namespace Sendpulse\RestApi\Storage;
+namespace Sendbox\RestApi\Storage;
 
 class SessionStorage implements TokenStorageInterface
 {

@@ -9,7 +9,7 @@
  *
  */
 
-namespace Sendpulse\RestApi;
+namespace Sendbox\RestApi;
 
 interface ApiInterface
 {
@@ -528,5 +528,4 @@ interface ApiInterface
      * @return mixed
      */
     public function deleteSmsCampaign($campaignID);
-
 }

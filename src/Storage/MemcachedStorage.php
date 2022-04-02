@@ -5,7 +5,7 @@
  * Class Session
  */
 
-namespace Sendpulse\RestApi\Storage;
+namespace Sendbox\RestApi\Storage;
 
 use Memcached;
 
