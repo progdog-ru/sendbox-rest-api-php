@@ -1,6 +1,6 @@
 {
-  "name": "sendpulse/rest-api",
-  "description": "Sendpulse REST API client library",
+  "name": "progdog-ru/sendbox-rest-api",
+  "description": "Sendbox REST API client library",
   "keywords": [
     "sendpulse",
     "rest",
