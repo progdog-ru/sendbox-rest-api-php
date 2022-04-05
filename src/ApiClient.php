@@ -434,6 +434,7 @@ class ApiClient implements ApiInterface
         // это сериализованный массив с email адресами
         // но по факту это не работает и выдает ошибку о неверном формате данных
         // поэтому это закоментил
+        // @see https://help.mail.ru/biz/sendbox/api/email#ab_delete
         /**
         $data = [
             'emails' => serialize($emails),
