@@ -430,9 +430,13 @@ class ApiClient implements ApiInterface
             return $this->handleError('Empty book id or emails');
         }
 
-        $data = array(
+        $data = [
             'emails' => serialize($emails),
-        );
+        ];
+
+        $data = [
+            'emails' => $emails,
+        ];
 
         $requestResult = $this->sendRequest('addressbooks/' . $bookID . '/emails', 'DELETE', $data);
 
