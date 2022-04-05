@@ -430,10 +430,17 @@ class ApiClient implements ApiInterface
             return $this->handleError('Empty book id or emails');
         }
 
+        // в апи sendbox указано, что значение параметра emails -
+        // это сериализованный массив с email адресами
+        // но по факту это не работает и выдает ошибку о неверном формате данных
+        // поэтому это закоментил
+        /**
         $data = [
             'emails' => serialize($emails),
         ];
+         */
 
+        // а этот формат работает у sendbox
         $data = [
             'emails' => $emails,
         ];
