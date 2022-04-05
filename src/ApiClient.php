@@ -431,7 +431,6 @@ class ApiClient implements ApiInterface
         }
 
         $data = array(
-            'id' => $bookID,
             'emails' => serialize($emails),
         );
 
